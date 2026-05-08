@@ -11,6 +11,9 @@ import com.ci.cd.demo.dto.Course;
 @Service
 public class CourseService {
 
+	public void demo() {
+		System.out.println("This is dummy method ");
+	}
     //RDS DB
     private final List<Course> courses = new ArrayList<>();
 
